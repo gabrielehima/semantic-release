@@ -1,4 +1,4 @@
-1. Install the semantic-release on your local environment:
+1. **Install the semantic-release on your local environment:**
 ```
     npm install --save-dev semantic-release
     $ npm install semantic-release @semantic-release/git @semantic-release/github -D
