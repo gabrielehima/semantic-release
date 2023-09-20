@@ -17,17 +17,17 @@ module.exports = {
      '@semantic-release/github']
 }
 ```
-3. Add your project to the repo:
+3. **Add your project to the repo:**
 ```
        git add .
 ```
-4. Commit your project to the repo using conventional commits. Your commit messages should start with:
+4. **Commit your project to the repo using conventional commits. Your commit messages should start with:**
 ```
     fix:                  ......for a patch version
     feat:                 ......for a minor version
     BREAKING CHANGE:      .......for a major version
 ```
-5. Add step in the CI workflow:
+5. **Add step in the CI workflow:**
 ```
 name: release workflow
 
