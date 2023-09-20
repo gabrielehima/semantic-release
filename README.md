@@ -4,7 +4,8 @@
     $ npm install semantic-release @semantic-release/git @semantic-release/github -D
 ```
 2. **Create a config file (release.config.js) in the project with the contents below:**  
-     release.config.js
+
+   release.config.js
     ====================
 ```
 module.exports = {
